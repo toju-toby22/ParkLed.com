@@ -24,7 +24,7 @@ function Homepage() {
 
                     <div className='absolute flex flex-col py-8 md:min-w-[750px] bottom-[5%]
                     mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
-                    borderborder-slate-300 rounded-xl text-center shadow-xl'>
+                    borde border-slate-300 rounded-xl text-center shadow-xl'>
                         <p>Courses</p>
                         <div className='flex justify-between flex-wrap px-4'>
                             <p className="flex px-4 py text-slate-500"><CloudDownloadIcon className='h-6 text-indigo-600'/>Product Research</p>
