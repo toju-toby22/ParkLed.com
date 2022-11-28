@@ -10,11 +10,11 @@ function Navbar() {
     return (
         <div className='w-screen h-[80px] bg-zinc-200 fixed drop-shadow-lg'>
             <div className='px-2 flex justify-between items-center w-full h-full'>
-                <div className='flex items-center'>
+                <div className='flex  items-center'>
                    <Link to="/"> <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>
-                        PARKLEAD.
+                        PARKLADE DIGITAL ACADEMY
                     </h1></Link>
-                    <ul className='hidden md:flex'>
+                    <ul className='hidden shift md:flex '>
                        <Link to="/"><li>Home</li></Link> 
                         <Link to="/courses"><li>Courses</li></Link>
                         <Link to="/about"><li>About</li></Link>
@@ -23,10 +23,10 @@ function Navbar() {
                 </div>
 
                 <div className='hidden md:flex'>
-                    <button className='border-none bg-transparent text-black mr-4'>
+                    <button className='sign border-none bg-transparent text-black mr-6'>
                         Sign In
                     </button>
-                    <button className='px-8 py-3'>
+                    <button className='sign px-8 py-3 mr-6'>
                         Sign Up
                     </button>
                 </div>

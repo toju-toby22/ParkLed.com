@@ -40,3 +40,37 @@
 body{
   background-color: white;
 }
+
+.mine{
+  font-size: 100px;
+}
+
+.text-2xl{
+  font-size: 40px;
+}
+
+.h-7{
+  height: 200px;
+}
+
+.text-1xl{
+  font-size: 23px;
+}
+.shift{
+  margin-left: 820px;
+  font-size: 25px;
+  
+}
+
+.sign{
+  font-size: 20px;
+}
+
+.dive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crn{
+  height: 50v;
+}
