@@ -3,7 +3,7 @@ import Navbar from "../Components/Nav-bar"
 // import img2 from "../Assets/images.png"
 import { CloudUploadIcon, DatabaseIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/solid";
 // import { FaBeer } from 'react-icons/fa';
-import supportImg from '../Assets/support.jpg'
+import supportImg from '../Assets/cyber-bg.png'
 import {Link} from "react-router-dom"
 
 
@@ -17,23 +17,23 @@ function Homepage() {
 
 
             <div className='w-full h-screen crn bg-zinc-100 flex flex-col justify-between md:w-full h-screen'>
-                <div className='grid items-center  md:grid-cols-2 max-w-[1240px] m-auto'>
-                    <div className='flex flex-col justify-center md:items-start w-full px-3 py-12 mt-15'>
+                <div className='grid items-center  md:grid-cols-1 max-w-[1240px] m-auto'>
+                    <div className='flex flex-col items-center justify-center md:items-start w-full px-3 py-12 mt-15'>
                         <p className='text-2xl mt-14'>Unique training on E-commerce</p>
                         <h1 className='py-3 text-5xl md:text-7xl font-bold'>Digital Marketing</h1>
                         <p className='text-2xl'>The Future of E-commerce</p>
                         <Link to="/courses"><button className='py-4 px-8 sm:w[60%] my-5'>Apply Here</button></Link>
                     </div>
-                    <div>
-                        <p className='text-5xl py-8 text-gray-500 text-center md:hidden'>
+                    {/* <div>
+                        <p className='text-5xl py-8 text-gray-500 text-center'>
                             Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
                         </p>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
 
-            <div name='support' className='w-full md:py-40'>
+            <div name='support' className='w-full md:py-0'>
                 <div className='w-full h-[700px] bg-gray-900/90 absolute'>
                     <img className='w-full h-full object-cover mix-blend-overlay' src={supportImg} alt="/" />
                 </div>
@@ -42,7 +42,7 @@ function Homepage() {
                     <div className='px-4 py-12'>
                         {/* <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'>PARKLADE</h2> */}
                         <h3 className='text-5xl font-bold py-6 text-center'>PARKLADE</h3>
-                        <p className='py-4 text-3xl text-slate-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repudiandae veritatis ratione error tenetur, voluptates architecto possimus ad! Omnis minima ea quidem quisquam unde beatae, minus illo et cum vel?</p>
+                        <p className='py-4 text-3xl text-slate-300'>Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs</p>
                     </div>
 
                 </div>

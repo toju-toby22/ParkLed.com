@@ -70,7 +70,15 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 .crn{
-  height: 50v;
+  height: 80vh;
+}
+
+@media (min-width: 768px) {
+  .md\:text-base {
+      font-size: 0,5rem/* 16px */;
+      line-height: 1.5rem/* 24px */;
+  }
 }
