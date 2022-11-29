@@ -17,11 +17,10 @@ function Navbar() {
         <div className='flex items-center'>
           <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>PDA.</h1>
           <ul className='hidden md:flex'>
-          <li><Link to="/" smooth={true} duration={500}>Home</Link></li>
-          <li><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
-          <li><Link to="contact" smooth={true} offset={-50} duration={500}>Support</Link></li>
-          <li><Link to="courses" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
-          <li><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
+          <li className="text-lg"><Link to="/" smooth={true} duration={500}>Home</Link></li>
+          <li className="text-lg"><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+          <li className="text-lg"><Link to="contact" smooth={true} offset={-50} duration={500}>Support</Link></li>
+          <li className="text-lg"><Link to="courses" smooth={true} offset={-100} duration={500}>Courses</Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
