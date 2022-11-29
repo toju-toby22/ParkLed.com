@@ -4,6 +4,7 @@ import Navbar from "../Components/Nav-bar"
 import { CloudUploadIcon, DatabaseIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/solid";
 // import { FaBeer } from 'react-icons/fa';
 import supportImg from '../Assets/cyber-bg.png'
+import logo from '../Assets/logo.png'
 import {Link} from "react-router-dom"
 
 
@@ -15,25 +16,7 @@ function Homepage() {
             </div>
 
 
-
-            <div className='w-full h-screen crn bg-zinc-100 flex flex-col justify-between md:w-full h-screen'>
-                <div className='grid items-center  md:grid-cols-1 max-w-[1240px] m-auto'>
-                    <div className='flex flex-col items-center justify-center md:items-start w-full px-3 py-12 mt-15'>
-                        <p className='text-2xl mt-14'>Unique training on E-commerce</p>
-                        <h1 className='py-3 text-5xl md:text-7xl font-bold'>Digital Marketing</h1>
-                        <p className='text-2xl'>The Future of E-commerce</p>
-                        <Link to="/courses"><button className='py-4 px-8 sm:w[60%] my-5'>Apply Here</button></Link>
-                    </div>
-                    {/* <div>
-                        <p className='text-5xl py-8 text-gray-500 text-center'>
-                            Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
-                        </p>
-                    </div> */}
-
-                </div>
-            </div>
-
-            <div name='support' className='w-full md:py-0'>
+            <div name='support' className='w-full md:py-20'>
                 <div className='w-full h-[700px] bg-gray-900/90 absolute'>
                     <img className='w-full h-full object-cover mix-blend-overlay' src={supportImg} alt="/" />
                 </div>
@@ -41,15 +24,38 @@ function Homepage() {
                 <div className='max-w-[1240px] mx-auto text-white relative'>
                     <div className='px-4 py-12'>
                         {/* <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'>PARKLADE</h2> */}
-                        <h3 className='text-5xl font-bold py-6 text-center'>PARKLADE</h3>
-                        <p className='py-4 text-3xl text-slate-300'>Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs</p>
+                        <h3 className='text-5xl font-bold py-6 text-center'>PARKLADE DIGITAL ACADEMY</h3>
+                        <p className='py-4 text-3xl text-slate-300'>Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
+                        >Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
+                        >Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs</p>
                     </div>
 
                 </div>
             </div>
 
+            <div className='w-full h-screen crn bg-zinc-100 flex flex-col justify-between mt-20'>
+                <div className='grid items-center  md:grid-cols-2 max-w-[1240px] p-auto m-auto'>
+                    <div className='flex flex-col items-center justify-center md:items-start w-full px-3 py-12 mt-15'>
+                        <p className='text-2xl mt-14'>Unique training on E-commerce</p>
+                        <h1 className='py-3 text-5xl md:text-7xl font-bold'>Digital Marketing</h1>
+                        <p className='text-2xl'>The Future of E-commerce</p>
+                        <Link to="/courses"><button className='py-4 px-8 sm:w[60%] my-5'>Apply Here</button></Link>
+                    </div>
+                    <div>
+
+                    <img className='w-full' src={logo} alt="/" />
+                        {/* <p className='text-5xl py-8 text-gray-500 text-center'>
+                            Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
+                        </p> */}
+                    </div>
+
+                </div>
+            </div>
+
+            
+
             <div className="dive">
-                <div className='flex flex-col py-8 md:min-w-[760px] bottom-[5%]
+                <div className='flex flex-col py-8 md:min-w-full bottom-[5%]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
             border border-slate-300 rounded-xl text-center shadow-xl'>
                     <p className='text-2xl py-3'>Top Courses</p>
