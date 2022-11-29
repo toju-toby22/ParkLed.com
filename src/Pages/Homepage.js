@@ -37,7 +37,7 @@ function Homepage() {
 
             <div className='w-full h-screen crn bg-zinc-100 flex flex-col justify-between'>
                 <div className='grid items-center  md:grid-cols-2 max-w-[1240px] p-auto m-auto'>
-                    <div className='flex flex-col items-center justify-center md:items-start w-full h-screen px-3 py-12'>
+                    <div className='flex flex-col items-center md:items-start w-full h-screen px-3 py-12'>
                         <p className='text-1xl'>Unique training on E-commerce</p>
                         <h1 className='py-3 text-5xl md:text-7xl font-bold'>Digital Marketing</h1>
                         <p className='text-2lg'>The Future of E-commerce</p>
