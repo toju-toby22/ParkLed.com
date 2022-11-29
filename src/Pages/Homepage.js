@@ -5,10 +5,13 @@ import { CloudUploadIcon, DatabaseIcon, PaperAirplaneIcon, ServerIcon } from "@h
 // import { FaBeer } from 'react-icons/fa';
 import supportImg from '../Assets/cyber-bg.png'
 import logo from '../Assets/logo.png'
-import { CheckIcon } from '@heroicons/react/outline';
+// import { CheckIcon } from '@heroicons/react/outline';
+import { Link } from "react-router-dom"
 
-import {Link} from "react-router-dom"
-
+import { FaFacebookF } from "react-icons/fa";
+import { FaShoppingBag } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
+import { HiOutlineMailOpen } from "react-icons/hi";
 
 function Homepage() {
     return (
@@ -27,9 +30,9 @@ function Homepage() {
                     <div className='px-4 py-12'>
                         {/* <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'>PARKLADE</h2> */}
                         <h3 className='text-5xl font-bold py-6 text-center mt-10'>PARKLADE DIGITAL ACADEMY</h3>
-                        <p className='py-4 text-xl  break-normal md:break-all text-slate-300 text-center w-full'>Parklade Digital Academy (PDA) 
-                        is the go-to Training Center Hub for participant to deploy the 
-                        skill set required in providing Digital and E-comerce solutions</p>
+                        <p className='py-4 text-xl  break-normal md:break-all text-slate-300 text-center w-full'>Parklade Digital Academy (PDA)
+                            is the go-to Training Center Hub for participant to deploy the
+                            skill set required in providing Digital and E-comerce solutions</p>
                     </div>
 
                 </div>
@@ -45,7 +48,7 @@ function Homepage() {
                     </div>
                     <div>
 
-                    <img className='w-full' src={logo} alt="/" />
+                        <img className='w-full' src={logo} alt="/" />
                         {/* <p className='text-5xl py-8 text-gray-500 text-center'>
                             Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
                         </p> */}
@@ -54,7 +57,7 @@ function Homepage() {
                 </div>
             </div>
 
-            
+
 
             {/* <div className="dive">
                 <div className='flex flex-col py-8 md:min-w-full bottom-[5%]
@@ -70,74 +73,82 @@ function Homepage() {
                     </div>
                 </div>
             </div> */}
-         <div name='platforms' className='w-full py-32'>
-      <div className='max-w-[1240px] mx-auto px-2'>
-        <h2 className='text-5xl font-bold text-center'>All-In-One Platform</h2>
-        <p className='text-2xl py-8 text-gray-500 text-center'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
-          ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
-          nostrum tempore.
-        </p>
+            <div name='platforms' className='w-full py-32'>
+                <div className='max-w-[1240px] mx-auto px-2'>
+                    <h2 className='text-5xl font-bold text-center'>All-In-One Platform</h2>
+                    <p className='text-2xl py-8 text-gray-500 text-center'>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
+                        ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
+                        nostrum tempore.
+                    </p>
 
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
+                    <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
 
-          <div className='flex'>
-            <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
-            </div>
-            <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
-              <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
-              </p>
-            </div>
-          </div>
-          <div className='flex'>
-            <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
-            </div>
-            <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
-              <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
-              </p>
-            </div>
-          </div>
-          <div className='flex'>
-            <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
-            </div>
-            <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
-              <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
-              </p>
-            </div>
-          </div>
-          <div className='flex'>
-            <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
-            </div>
-            <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
-              <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
-              </p>
-            </div>
-          </div>
-        
+                        <div className='flex flex-col justify-center items-center text-center bg-zinc-200
+            border border-slate-300 rounded-xl shadow-xl p-auto m-auto'>
+                            <div>
+                                <FaShoppingBag className='h-[100px] w-7 mr-4 text-indigo-600' />
+                            </div>
+                            <div>
+                                <h3 className='font-bold text-lg'>Product Research</h3>
+                                <p className='text-lg pt-2 pb-4'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Asperiores maxime deserunt voluptatibus consequatur similique
+                                    voluptates!
+                                </p>
+                            </div>
+                        </div>
 
-        </div>
-      </div>
-    </div>
+                        <div className='flex flex-col justify-center items-center text-center bg-zinc-200
+            border border-slate-300 rounded-xl shadow-xl p-auto m-auto '>
+                            <div>
+                                <FaFacebookF className='h-[100px] w-7 mr-4 text-indigo-600' />
+                            </div>
+                            <div>
+                                <h3 className='font-bold text-lg'>Facebook Advertising</h3>
+                                <p className='text-lg pt-2 pb-4'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Asperiores maxime deserunt voluptatibus consequatur similique
+                                    voluptates!
+                                </p> 
+                            </div>
+                        </div>
+
+                        <div className='flex flex-col justify-center items-center text-center bg-zinc-200
+            border border-slate-300 rounded-xl shadow-xl '>
+                            <div>
+                                <FaChartLine className='h-[100px] w-7 mr-4 text-indigo-600' />
+                            </div>
+                            <div>
+                                <h3 className='font-bold text-lg'>Algorithim Targeting</h3>
+                                <p className='text-lg pt-2 pb-4'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Asperiores maxime deserunt voluptatibus consequatur similique
+                                    voluptates! 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='flex flex-col justify-center items-center text-center bg-zinc-200
+            border border-slate-300 rounded-xl shadow-xl '>
+                            <div>
+                                <HiOutlineMailOpen className='h-[100px] w-7 mr-4 text-indigo-600' />
+                            </div>
+                            <div>
+                                <h3 className='font-bold text-lg'>Email Marketing</h3>
+                                <p className='text-lg pt-2 pb-4'>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Asperiores maxime deserunt voluptatibus consequatur similique
+                                    voluptates!
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
