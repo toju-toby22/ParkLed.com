@@ -8,6 +8,8 @@ import {
     FaInstagram,
     FaTwitter,
 } from 'react-icons/fa'
+import Footer from "../Components/footer"
+
 
 
 function Contact() {
@@ -34,7 +36,7 @@ function Contact() {
                                 <div className='p-8'>
                                     <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
                                     <h3 className='font-bold text-2xl my-6'>Phone</h3>
-                                    <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p>
+                                    <p className='text-gray-600 text-xl'>08065372219, 08067382053</p>
                                 </div>
                                 <div className='bg-slate-100 pl-8 py-4'>
                                     <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
@@ -54,10 +56,10 @@ function Contact() {
                                 <div className='p-8'>
                                     <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
                                     <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
-                                    <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
-                                        <FaFacebook />
-                                        <FaInstagram />
-                                        <FaTwitter />
+                                    <div className='flex justify-center sm:w-[300px] pt-4 text-2xl'>
+                                        <FaFacebook className="pr-4 h-[40px]" />
+                                        <FaInstagram className="pr-4 h-[40px]" />
+                                        <FaTwitter className="pr-4 h-[40px]" />
                                     </div>
                                     {/* <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p> */}
                                 </div>
@@ -69,6 +71,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
