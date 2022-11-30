@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "../Components/Nav-bar"
+import Footer from "../Components/footer"
 // import img2 from "../Assets/images.png"
-import { CloudUploadIcon, DatabaseIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/solid";
+// import { CloudUploadIcon, DatabaseIcon, PaperAirplaneIcon, ServerIcon } from "@heroicons/react/solid";
 // import { FaBeer } from 'react-icons/fa';
 import supportImg from '../Assets/cyber-bg.png'
-import logo from '../Assets/logo.png'
+// import logo from '../Assets/logo.png'
 // import { CheckIcon } from '@heroicons/react/outline';
 import { Link } from "react-router-dom"
 
@@ -21,24 +22,32 @@ function Homepage() {
             </div>
 
 
-            <div name='support' className='w-full md:py-0'>
-                <div className='w-full h-[500px] bg-gray-900/90 absolute'>
+            <div name='support' className='w-full py-20'>
+                <div className='w-full h-[700px] bg-gray-900/90 absolute'>
                     <img className='w-full h-full object-cover mix-blend-overlay' src={supportImg} alt="/" />
                 </div>
 
                 <div className='max-w-[1240px] mx-auto text-white relative'>
                     <div className='px-4 py-12'>
-                        {/* <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'>PARKLADE</h2> */}
-                        <h3 className='text-5xl font-bold py-6 text-center mt-10'>PARKLADE DIGITAL ACADEMY</h3>
-                        <p className='py-4 text-xl  break-normal md:break-all text-slate-300 text-center w-full'>Parklade Digital Academy (PDA)
-                            is the go-to Training Center Hub for participant to deploy the
-                            skill set required in providing Digital and E-comerce solutions</p>
+                        <h2 className='text-5xl font-bold py-6 text-center'>PARKLADE</h2>
+                        <h3 className='text-5xl font-bold py-6 text-center'>DIGITAL ACADEMY</h3>
+                        <p className='py-4 text-center text-3xl text-slate-300'>
+                            Parklade Digital Academy provides the skill sets required to participate and
+                            compete in the 21st-century digital marketing and e-commerce industry.
+                            Our curriculum is strategically structured to deliver practical and
+                            personalized hands-on training to our students.</p>
                     </div>
-
+                    <div className="flex justify-center items-center gap-3">
+                        <Link to="/courses"><button className='py-4 px-8 sm:w[60%] my-5 text-xl drop-shadow-md'>Apply Here</button></Link>
+                        <button className='border-4 border-white py-4 px-8 bg-transparent text-white my-4 text-xl drop-shadow-md'>
+                          Courses
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div className='w-full h-screen crn bg-zinc-100 flex flex-col justify-between md:pb-20'>
+
+            {/* <div className='w-full h-screen crn bg-zinc-100 flex flex-col justify-between md:pb-20'>
                 <div className='grid items-center  md:grid-cols-2 max-w-[1240px] p-auto m-auto'>
                     <div className='flex flex-col  justify-center md:items-start w-full px-3'>
                         <p className='text-1xl md:pt-8'>Unique training on E-commerce</p>
@@ -49,13 +58,13 @@ function Homepage() {
                     <div>
 
                         <img className='w-full' src={logo} alt="/" />
-                        {/* <p className='text-5xl py-8 text-gray-500 text-center'>
+                        <p className='text-5xl py-8 text-gray-500 text-center'>
                             Digital Marketing courses forr E-commerce Virtual Assistants and Startup E-commerce Entrepreneurs
-                        </p> */}
+                        </p>
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -75,7 +84,7 @@ function Homepage() {
             </div> */}
             <div name='platforms' className='w-full py-32'>
                 <div className='max-w-[1240px] mx-auto px-2'>
-                    <h2 className='text-5xl font-bold text-center'>All-In-One Platform</h2>
+                    <h2 className='text-5xl font-bold text-center'>Job Opportunities</h2>
                     <p className='text-2xl py-8 text-gray-500 text-center'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
                         ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
@@ -85,7 +94,7 @@ function Homepage() {
                     <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
 
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
-            border border-slate-300 rounded-xl shadow-xl p-auto m-auto'>
+                          border border-slate-300 rounded-xl shadow-xl p-auto m-auto'>
                             <div>
                                 <FaShoppingBag className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
@@ -100,7 +109,7 @@ function Homepage() {
                         </div>
 
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
-            border border-slate-300 rounded-xl shadow-xl p-auto m-auto '>
+                           border border-slate-300 rounded-xl shadow-xl p-auto m-auto '>
                             <div>
                                 <FaFacebookF className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
@@ -110,7 +119,7 @@ function Homepage() {
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores maxime deserunt voluptatibus consequatur similique
                                     voluptates!
-                                </p> 
+                                </p>
                             </div>
                         </div>
 
@@ -124,7 +133,7 @@ function Homepage() {
                                 <p className='text-lg pt-2 pb-4'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores maxime deserunt voluptatibus consequatur similique
-                                    voluptates! 
+                                    voluptates!
                                 </p>
                             </div>
                         </div>
@@ -149,6 +158,7 @@ function Homepage() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
