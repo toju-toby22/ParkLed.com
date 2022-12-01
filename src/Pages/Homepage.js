@@ -13,6 +13,10 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import { FcCustomerSupport } from "react-icons/fc";
+import { ImPageBreak } from "react-icons/im";
+
 
 function Homepage() {
     return (
@@ -38,9 +42,9 @@ function Homepage() {
                     </div>
                     <div className="flex justify-center items-center gap-3">
                         <Link to="/courses"><button className='py-4 px-8 sm:w[60%] my-5 text-xl drop-shadow-md'>Apply Here</button></Link>
-                        <button className='border-4 border-black py-4 px-8 bg-transparent text-indigo-600 my-4 text-xl drop-shadow-md'>
+                        <Link to="/courses"><button className='border-4 border-black py-4 px-8 bg-transparent text-indigo-600 my-4 text-xl drop-shadow-md'>
                             Courses
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
             </div>
@@ -96,10 +100,10 @@ function Homepage() {
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
                           border border-slate-300 rounded-xl shadow-xl p-auto m-auto'>
                             <div>
-                                <FaShoppingBag className='h-[100px] w-7 mr-4 text-indigo-600' />
+                                <FcCustomerSupport className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Product Research</h3>
+                                <h3 className='font-bold text-lg'>Virtual Assistant</h3>
                                 <p className='text-lg pt-2 pb-4'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores maxime deserunt voluptatibus consequatur similique
@@ -114,7 +118,7 @@ function Homepage() {
                                 <FaFacebookF className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Facebook Advertising</h3>
+                                <h3 className='font-bold text-lg'>Facebook Ads Manager</h3>
                                 <p className='text-lg pt-2 pb-4'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores maxime deserunt voluptatibus consequatur similique
@@ -126,10 +130,10 @@ function Homepage() {
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
             border border-slate-300 rounded-xl shadow-xl '>
                             <div>
-                                <FaChartLine className='h-[100px] w-7 mr-4 text-indigo-600' />
+                                <ImPageBreak className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Algorithim Targeting</h3>
+                                <h3 className='font-bold text-lg'>Landing page Creator  </h3>
                                 <p className='text-lg pt-2 pb-4'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores maxime deserunt voluptatibus consequatur similique
@@ -141,10 +145,10 @@ function Homepage() {
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
             border border-slate-300 rounded-xl shadow-xl '>
                             <div>
-                                <HiOutlineMailOpen className='h-[100px] w-7 mr-4 text-indigo-600' />
+                                <RiCustomerServiceFill className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Email Marketing</h3>
+                                <h3 className='font-bold text-lg'>Custumer Service</h3>
                                 <p className='text-lg pt-2 pb-4'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Asperiores maxime deserunt voluptatibus consequatur similique

@@ -4,6 +4,7 @@ import Navbar from "../Components/Nav-bar"
 import supportImg from '../Assets/cyber-bg.png'
 import download from '../Assets/download.jpg'
 import marketing from '../Assets/marketing.jpg'
+import img11 from '../Assets/getty_491323049_111608.jpg'
 // import { RiNumber1, RiNumber2 } from "react-icons/ri";
 import Footer from "../Components/footer"
 import { Link } from "react-router-dom"
@@ -89,7 +90,7 @@ function Courses() {
                 <div className="p-3">
                   <h3 className='font-bold text-lg'>Social Media Marketing (MMM)</h3>
 
-                  <img className='w-full h-[200px] object-cover mt-3' src={marketing} alt="/" />
+                  <img className='w-full h-[200px] object-cover mt-3' src={img11} alt="/" />
 
 
                   {/* <p className='text-lg pt-2 pb-4'>

@@ -4,6 +4,7 @@ import Footer from "../Components/footer"
 import simplilearn from "../Assets/simplilearn.jpg"
 import v7DJGlU from "../Assets/v7DJGlU.jpg"
 import ComputerLabBanner from "../Assets/istockphoto.jpg"
+import { Link } from "react-router-dom";
 
 
 
@@ -19,9 +20,9 @@ function About() {
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
                         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                             <p className='text-sm'> Parklade Digital Academy is a Digital Marketing and e-commerce training hub.
-                                    We are strategically established to produce skillful Virtual Assistants for the increasing
-                                    booming online e-commerce stores. We also create and develop capacities in entrepreneurship
-                                    by training new startup online e-commerce entrepreneurs</p>
+                                We are strategically established to produce skillful Virtual Assistants for the increasing
+                                booming online e-commerce stores. We also create and develop capacities in entrepreneurship
+                                by training new startup online e-commerce entrepreneurs</p>
                             {/* <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button> */}
                         </div>
                         <div className="p-5">
@@ -33,17 +34,17 @@ function About() {
                 <div name='home' className='w-full bg-zinc-200 flex flex-col justify-between  rounded-xl mt-10'>
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
 
-                    <div className="p-5">
+                        <div className="p-5">
                             <img className='w-full' src={v7DJGlU} alt="/" />
                         </div>
                         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                             <p className='text-sm'>   We have partnered with foreign digital marketing interest to ensure that PDA enjoys technical
-                                    support for the success of her programs. Locally too, we have been reaching out with local
-                                    indigenous institutions who are set up to promote capacity building in entrepreneurship
-                                    especially in the digital marketing industry.</p>
+                                support for the success of her programs. Locally too, we have been reaching out with local
+                                indigenous institutions who are set up to promote capacity building in entrepreneurship
+                                especially in the digital marketing industry.</p>
                             {/* <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button> */}
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -52,8 +53,8 @@ function About() {
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
                         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                             <p className='text-sm'>  Our trainers are digital marketing experts with several years of experience both in
-                                    training and running e-commerce stores for online business owners.</p>
-                            <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
+                                training and running e-commerce stores for online business owners.</p>
+                            <Link className="py-3 px-6 sm:w-[60%] my-4" to="/courses>"><button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button></Link>
                         </div>
                         <div className="p-5">
                             <img className='w-full' src={ComputerLabBanner} alt="/" />

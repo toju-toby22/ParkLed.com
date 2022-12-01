@@ -46,7 +46,7 @@ function module1() {
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Product Description.</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Landing Pages</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Customer Service</p>
-                    <button className='w-full py-4 my-4'>Get Started</button>
+                    <button className='w-full py-4 my-4'>Apply Now</button>
                 </div>
             </div>
             <Footer />
