@@ -21,11 +21,6 @@ function module2() {
                     <div className='px-4 py-12'>
                         <h2 className='text-4xl font-bold py-3 text-center'>Module PD01</h2>
                         <h3 className='text-4xl text-center'>Foundational Digital Marketing</h3>
-                        <p className='py-4 text-center text-3xl md:text-lg text-slate-300'>
-                            Parklade Digital Academy provides the skill sets required to participate and
-                            compete in the 21st-century digital marketing and e-commerce industry.
-                            Our curriculum is strategically structured to deliver practical and
-                            personalized hands-on training to our students.</p>
                     </div>
                 </div>
             </div>
