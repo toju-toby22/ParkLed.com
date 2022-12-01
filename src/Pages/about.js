@@ -66,16 +66,16 @@ function About() {
                         <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
                             <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Premium</span>
                             <div>
-                                <p className='text-6xl md:text-4xl font-bold py-4 flex text-sky-600'>Our Vision</p>
+                                <p className='text-4xl font-bold py-4 flex text-sky-600'>Our Vision</p>
                             </div>
-                            <p className='text-3xl md:text-lg  py-6  text-slate-900'>To be the go-to academy/institute for the much-needed modern digital
+                            <p className='text-lg md:text-lg  py-6  text-slate-900'>To be the go-to academy/institute for the much-needed modern digital
                                 skill set for today’s digital marketing and e-commerce business.</p>
 
 
                             <div>
-                                <p className='text-6xl md:text-4xl font-bold py-4 flex text-sky-600'>Mission Statement</p>
+                                <p className='text-4xl font-bold py-4 flex text-sky-600'>Mission Statement</p>
                             </div>
-                            <p className='text-3xl md:text-lg py-6 text-slate-900'>To deliver cutting-edge and up-to-date digital
+                            <p className='text-lg md:text-lg py-6 text-slate-900'>To deliver cutting-edge and up-to-date digital
                                 solutions for online e-commerce businesses.</p>
                             {/* <div className='text-2xl'>
                 <p className='flex py-4'>Lorem, ipsum dolor.</p>
@@ -89,16 +89,16 @@ function About() {
 
                         <div className='grid md:grid-cols-3 gap-1 px-2 text-center mt-20'>
                             <div className='border py-8 rounded-xl shadow-xl' >
-                                <p className='text-6xl font-bold text-indigo-600'>100%</p>
-                                <p className='text-gray-400 mt-2'>Completion</p>
+                                <p className='text-4xl font-bold text-indigo-600'>Partners</p>
+                                {/* <p className='text-gray-400 mt-2'>Completion</p> */}
                             </div>
                             <div className='border py-8 rounded-xl shadow-xl' >
-                                <p className='text-6xl font-bold text-indigo-600'>24/7</p>
-                                <p className='text-gray-400 mt-2'>Delivery</p>
+                                <p className='text-4xl font-bold text-indigo-600'>Students</p>
+                                {/* <p className='text-gray-400 mt-2'>Delivery</p> */}
                             </div>
                             <div className='border py-8 rounded-xl shadow-xl' >
-                                <p className='text-6xl font-bold text-indigo-600'>100K</p>
-                                <p className='text-gray-400 mt-2'>Transactions</p>
+                                <p className='text-4xl font-bold text-indigo-600'>Achievements</p>
+                                {/* <p className='text-gray-400 mt-2'>Transactions</p> */}
                             </div>
                         </div>
                     </div>
