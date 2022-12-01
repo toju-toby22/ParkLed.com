@@ -23,15 +23,14 @@ function Homepage() {
 
 
             <div name='support' className='w-full py-20'>
-                <div className='w-full h-[700px] bg-gray-900/90 absolute'>
+                <div className='w-full h-[500px] bg-gray-900/90 absolute'>
                     <img className='w-full h-full object-cover mix-blend-overlay' src={supportImg} alt="/" />
                 </div>
 
                 <div className='max-w-[1240px] mx-auto text-white relative'>
                     <div className='px-4 py-12'>
-                        <h2 className='text-5xl font-bold py-6 text-center'>PARKLADE</h2>
-                        <h3 className='text-5xl font-bold py-6 text-center'>DIGITAL ACADEMY</h3>
-                        <p className='py-4 text-center text-3xl text-slate-300'>
+                        <h2 className='text-5xl font-bold py-6 text-center'>PARKLADE DIGITAL ACADEMY</h2>
+                        <p className='py-4 text-center text-lg text-slate-300'>
                             Parklade Digital Academy provides the skill sets required to participate and
                             compete in the 21st-century digital marketing and e-commerce industry.
                             Our curriculum is strategically structured to deliver practical and
@@ -39,8 +38,8 @@ function Homepage() {
                     </div>
                     <div className="flex justify-center items-center gap-3">
                         <Link to="/courses"><button className='py-4 px-8 sm:w[60%] my-5 text-xl drop-shadow-md'>Apply Here</button></Link>
-                        <button className='border-4 border-white py-4 px-8 bg-transparent text-white my-4 text-xl drop-shadow-md'>
-                          Courses
+                        <button className='border-4 border-black py-4 px-8 bg-transparent text-indigo-600 my-4 text-xl drop-shadow-md'>
+                            Courses
                         </button>
                     </div>
                 </div>
@@ -82,13 +81,14 @@ function Homepage() {
                     </div>
                 </div>
             </div> */}
-            <div name='platforms' className='w-full py-32'>
+            <div name='platforms' className='w-full py-10'>
                 <div className='max-w-[1240px] mx-auto px-2'>
                     <h2 className='text-5xl font-bold text-center'>Job Opportunities</h2>
-                    <p className='text-2xl py-8 text-gray-500 text-center'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
-                        ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
-                        nostrum tempore.
+                    <p className='text-lg py-8 text-gray-500 text-center'>
+                        Acquire digital skill sets that help you get jobs as virtual assistants in the e-commerce 
+                        industry like product researcher, email marketing, customer service, product description, etc.
+                        PDA training opens business opportunities for startup entrepreneurs in digital and 
+                        e-commerce businesses opportunities.
                     </p>
 
                     <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
