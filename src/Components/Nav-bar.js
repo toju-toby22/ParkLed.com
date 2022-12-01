@@ -40,8 +40,8 @@ function Navbar() {
             </div>
 
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-            <Link onClick={handleClose} to="/contact" smooth={true} offset={-50} duration={500}><li className='border-b-2 border-zinc-300 w-full'>Home</li></Link>
-                <Link onClick={handleClose} to="/contact" smooth={true} offset={-50} duration={500}><li className='border-b-2 border-zinc-300 w-full'>About</li></Link>
+            <Link onClick={handleClose} to="/" smooth={true} offset={-50} duration={500}><li className='border-b-2 border-zinc-300 w-full'>Home</li></Link>
+                <Link onClick={handleClose} to="/about" smooth={true} offset={-50} duration={500}><li className='border-b-2 border-zinc-300 w-full'>About</li></Link>
                 <Link onClick={handleClose} to="/contact" smooth={true} offset={-50} duration={500}><li className='border-b-2 border-zinc-300 w-full'>Contact Us</li></Link>
                 <Link onClick={handleClose} to="/courses" smooth={true} offset={-100} duration={500}> <li className='border-b-2 border-zinc-300 w-full'>Courses</li></Link>
 
