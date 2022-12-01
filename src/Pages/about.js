@@ -54,7 +54,7 @@ function About() {
                         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                             <p className='text-sm'>  Our trainers are digital marketing experts with several years of experience both in
                                 training and running e-commerce stores for online business owners.</p>
-                            <Link className="py-3 px-6 sm:w-[60%] my-4" to="/courses>"><button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button></Link>
+                            <Link className="py-3 px-6 sm:w-[60%] my-4" to="/courses"><button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button></Link>
                         </div>
                         <div className="p-5">
                             <img className='w-full' src={ComputerLabBanner} alt="/" />
