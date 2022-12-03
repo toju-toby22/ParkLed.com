@@ -105,9 +105,7 @@ function Homepage() {
                             <div>
                                 <h3 className='font-bold text-lg'>Virtual Assistant</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Asperiores maxime deserunt voluptatibus consequatur similique
-                                    voluptates!
+                                    Millions of virtual assistants opportunities opened at E-com Stores
                                 </p>
                             </div>
                         </div>
@@ -120,9 +118,7 @@ function Homepage() {
                             <div>
                                 <h3 className='font-bold text-lg'>Facebook Ads Manager</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Asperiores maxime deserunt voluptatibus consequatur similique
-                                    voluptates!
+                                    Monitior and pversee the progress of Facebook Ads in different types of onlinebusiness
                                 </p>
                             </div>
                         </div>
@@ -135,9 +131,7 @@ function Homepage() {
                             <div>
                                 <h3 className='font-bold text-lg'>Landing page Creator  </h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Asperiores maxime deserunt voluptatibus consequatur similique
-                                    voluptates!
+                                    Apply your copy writing skills in Landing Page <br/> creation.
                                 </p>
                             </div>
                         </div>
@@ -148,11 +142,9 @@ function Homepage() {
                                 <RiCustomerServiceFill className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Custumer Service</h3>
+                                <h3 className='font-bold text-lg'>Customer Service</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Asperiores maxime deserunt voluptatibus consequatur similique
-                                    voluptates!
+                                    Learn communications skills to be able to relate well with <br/>customers.
                                 </p>
                             </div>
                         </div>

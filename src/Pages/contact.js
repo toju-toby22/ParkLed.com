@@ -55,9 +55,10 @@ function Contact() {
                                     <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
                                     <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
                                     <div className='flex justify-center sm:w-[300px] pt-4 text-2xl'>
-                                        <FaFacebook className="pr-4 h-[40px]" />
-                                        <FaInstagram className="pr-4 h-[40px]" />
-                                        <FaTwitter className="pr-4 h-[40px]" />
+                                        
+                                       <a href="https://www.facebook.com/fazed.somto?mibextid=LQQJ4d"><FaFacebook className="pr-4 h-[40px]" /></a>
+                                       <a href="https://instagram.com/parkladea?igshid=YmMyMTA2M2Y="><FaInstagram className="pr-4 h-[40px]" /></a>
+                                       <a href="http://twitter.com/parkladeA"><FaTwitter className="pr-4 h-[40px]" /></a>
                                     </div>
                                     {/* <p className='text-gray-600 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi provident iure placeat blanditiis ea sint earum hic iste quibusdam exercitationem.</p> */}
                                 </div>
