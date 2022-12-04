@@ -31,11 +31,11 @@ function module2() {
                 <div>
                     <p className='text-4xl font-bold py-4 flex'>Module PD02</p>
                 </div>
-                <p className='text-3xl md:text-lg py-6 text-slate-900 font-semibold'>This program focuses on the
+                <p className='text-xl md:text-lg py-6 text-slate-900 font-semibold'>This program focuses on the
                     application of skills acquired in mod PD01.  Participants will know how to create and manage online
                     e-commerce stores by leveraging on platforms like Shopify and Amazon.
                     They will be resourceful in dropshoping, Ads-copy, Facebook Ads and e-mail marketing.  </p>
-                <div className='text-3xl md:text-lg text-slate-600'>
+                <div className='text-xl md:text-lg text-slate-600'>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Video creation</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Shopify</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Dropshipping</p>

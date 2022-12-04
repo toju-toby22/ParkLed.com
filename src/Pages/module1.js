@@ -32,14 +32,14 @@ function module1() {
                 <div>
                     <p className='text-4xl font-bold py-4 flex'>Module PD01</p>
                 </div>
-                <p className='text-3xl md:text-lg py-6 text-slate-900 font-semibold'>This is a foundational training in
+                <p className='text-xl md:text-lg py-6 text-slate-900 font-semibold'>This is a foundational training in
                     digital marketing and e-commerce for beginners.  The curriculum for this program is structured
                     to help our student acquire practical and in-depth knowledge. At the completion of this module,
                     participants can deploy their competence in researching and finding winning products, create landing pages,
                     provide catchy
                     products description and deliver efficient customer services
                     to potential customers for e-commerce online stores. </p>
-                <div className='text-3xl md:text-lg text-slate-600'>
+                <div className='text-xl md:text-lg text-slate-600'>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Introduction to Computer and Internet</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Product Research</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Algorithm Sheets</p>
