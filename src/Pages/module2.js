@@ -42,7 +42,7 @@ function module2() {
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Ads-Copy</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Facebook Ads</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> E-Mail Marketing</p>
-                    <button className='w-full py-4 my-4'>Apply Now</button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKfdHpZGjl9WG3vMHsxH9GniLcfF9y2wbTCwo-vdhdsAvc7Q/viewform?embedded=true">  <button className='w-full py-4 my-4'>Apply Now</button></a>
                 </div>
             </div>
             {/* <div name='support' className='w-full py-20'>

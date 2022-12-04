@@ -19,10 +19,12 @@ function About() {
                 <div name='home' className='w-full bg-zinc-200 flex flex-col justify-between rounded-xl mt-10'>
                     <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
                         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
-                            <p className='text-sm'> Parklade Digital Academy is a Digital Marketing and e-commerce training hub.
-                                We are strategically established to produce skillful Virtual Assistants for the increasing
-                                booming online e-commerce stores. We also create and develop capacities in entrepreneurship
-                                by training new startup online e-commerce entrepreneurs</p>
+                            <p className='text-sm'>Parklade Digital Services Ltd (PDSL) established Parklade Digital Academy to deliver
+                                cutting-edge Digital Marketing and e-commerce training. The objective is to produce skillful Virtual Assistants
+                                for flourishing online e-commerce store businesses. We also create and develop capacities in entrepreneurship by
+                                training new startup online e-commerce entrepreneurs. Our training modules PD01 and PD02 are structured strategically
+                                to provide much-needed skill
+                                sets required to compete and be relevant in the evolving digital marketing and e-commerce space.</p>
                             {/* <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button> */}
                         </div>
                         <div className="p-5">
@@ -76,8 +78,8 @@ function About() {
                             <div>
                                 <p className='text-4xl font-bold py-4 flex text-sky-600'>Mission Statement</p>
                             </div>
-                            <p className='text-lg md:text-lg py-6 text-slate-900'>To deliver cutting-edge and up-to-date digital
-                                solutions for online e-commerce businesses.</p>
+                            <p className='text-lg md:text-lg py-6 text-slate-900'>To create massive job opportunities for
+                                Nigerians both young and old through our training programs in digital marketing and e-commerce.</p>
                             {/* <div className='text-2xl'>
                 <p className='flex py-4'>Lorem, ipsum dolor.</p>
                 <p className='flex py-4'>Lorem, ipsum dolor.</p>

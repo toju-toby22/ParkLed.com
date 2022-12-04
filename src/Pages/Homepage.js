@@ -10,9 +10,9 @@ import supportImg from '../Assets/cyber-bg.png'
 import { Link } from "react-router-dom"
 
 import { FaFacebookF } from "react-icons/fa";
-import { FaShoppingBag } from "react-icons/fa";
-import { FaChartLine } from "react-icons/fa";
-import { HiOutlineMailOpen } from "react-icons/hi";
+// import { FaShoppingBag } from "react-icons/fa";
+// import { FaChartLine } from "react-icons/fa";
+// import { HiOutlineMailOpen } from "react-icons/hi";
 import { RiCustomerServiceFill } from "react-icons/ri";
 import { FcCustomerSupport } from "react-icons/fc";
 import { ImPageBreak } from "react-icons/im";
@@ -89,9 +89,9 @@ function Homepage() {
                 <div className='max-w-[1240px] mx-auto px-2'>
                     <h2 className='text-5xl font-bold text-center'>Job Opportunities</h2>
                     <p className='text-lg py-8 text-gray-500 text-center'>
-                        Acquire digital skill sets that help you get jobs as virtual assistants in the e-commerce 
+                        Acquire digital skill sets that help you get jobs as virtual assistants in the e-commerce
                         industry like product researcher, email marketing, customer service, product description, etc.
-                        PDA training opens business opportunities for startup entrepreneurs in digital and 
+                        PDA training opens business opportunities for startup entrepreneurs in digital and
                         e-commerce businesses opportunities.
                     </p>
 
@@ -118,7 +118,7 @@ function Homepage() {
                             <div>
                                 <h3 className='font-bold text-lg'>Facebook Ads Manager</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Monitior and pversee the progress of Facebook Ads in different types of onlinebusiness
+                                    Monitior and oversee the progress of Facebook Ads in different types of online business
                                 </p>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ function Homepage() {
                             <div>
                                 <h3 className='font-bold text-lg'>Landing page Creator  </h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Apply your copy writing skills in Landing Page <br/> creation.
+                                    Apply your copy writing skills in Landing Page <br /> creation.
                                 </p>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ function Homepage() {
                             <div>
                                 <h3 className='font-bold text-lg'>Customer Service</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Learn communications skills to be able to relate well with <br/>customers.
+                                    Learn communications skills to be able to relate well with <br />customers.
                                 </p>
                             </div>
                         </div>
