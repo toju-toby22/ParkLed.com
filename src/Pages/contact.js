@@ -56,7 +56,7 @@ function Contact() {
                                     <h3 className='font-bold text-2xl my-6'>Media Inquiries</h3>
                                     <div className='flex justify-center sm:w-[300px] pt-4 text-2xl'>
                                         
-                                       <a href="https://www.facebook.com/fazed.somto?mibextid=LQQJ4d"><FaFacebook className="pr-4 h-[40px]" /></a>
+                                       <a href="https://www.facebook.com/parkladea/"><FaFacebook className="pr-4 h-[40px]" /></a>
                                        <a href="https://instagram.com/parkladea?igshid=YmMyMTA2M2Y="><FaInstagram className="pr-4 h-[40px]" /></a>
                                        <a href="http://twitter.com/parkladeA"><FaTwitter className="pr-4 h-[40px]" /></a>
                                     </div>

@@ -44,7 +44,7 @@ const Footer = () => {
             <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
                 <p className='py-4'>2022 Parklade, PDA. All rights reserved</p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
-                    <a href="https://www.facebook.com/fazed.somto?mibextid=LQQJ4d"><FaFacebook /></a>
+                    <a href="https://www.facebook.com/parkladea/"><FaFacebook /></a>
                     <a href="https://instagram.com/parkladea?igshid=YmMyMTA2M2Y="><FaInstagram /></a>
                     <a href="http://twitter.com/parkladeA"><FaTwitter /></a>
                 </div>

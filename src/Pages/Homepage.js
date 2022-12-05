@@ -9,11 +9,11 @@ import supportImg from '../Assets/cyber-bg.png'
 // import { CheckIcon } from '@heroicons/react/outline';
 import { Link } from "react-router-dom"
 
-import { FaFacebookF } from "react-icons/fa";
+import { AiFillShopping } from "react-icons/ai";
 // import { FaShoppingBag } from "react-icons/fa";
 // import { FaChartLine } from "react-icons/fa";
 // import { HiOutlineMailOpen } from "react-icons/hi";
-import { RiCustomerServiceFill } from "react-icons/ri";
+import { TfiEmail } from "react-icons/tfi";
 import { FcCustomerSupport } from "react-icons/fc";
 import { ImPageBreak } from "react-icons/im";
 
@@ -89,10 +89,11 @@ function Homepage() {
                 <div className='max-w-[1240px] mx-auto px-2'>
                     <h2 className='text-5xl font-bold text-center'>Job Opportunities</h2>
                     <p className='text-lg py-8 text-gray-500 text-center'>
-                        Acquire digital skill sets that help you get jobs as virtual assistants in the e-commerce
-                        industry like product researcher, email marketing, customer service, product description, etc.
-                        PDA training opens business opportunities for startup entrepreneurs in digital and
-                        e-commerce businesses opportunities.
+                    After the programs, participants are opened to massive job opportunities in digital marketing and e-commerce platforms.
+                     There is a need for remote Virtual Assistants by companies in and outside the country. Some VAs earn good money in 
+                     Dollars and other strong currencies.  Examples of areas where VAs are needed are Product Research, Email Marketing, 
+                     Customer Service, Product Description, Algorithm Sheet, etc. 
+                    PDA training also provides requisite knowledge for startup entrepreneurs in digital marketing and e-commerce.
                     </p>
 
                     <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
@@ -100,12 +101,13 @@ function Homepage() {
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
                           border border-slate-300 rounded-xl shadow-xl p-auto m-auto'>
                             <div>
-                                <FcCustomerSupport className='h-[100px] w-7 mr-4 text-indigo-600' />
+                                <TfiEmail className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Virtual Assistant</h3>
+                                <h3 className='font-bold text-lg'>Email Marketing</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Millions of virtual assistants opportunities opened at E-com Stores
+                                Identify target audience and grow company’s email list ; Design and implement direct email marketing. 
+                                Segment lists based on behaviors like past email engagement and website interactions.
                                 </p>
                             </div>
                         </div>
@@ -113,12 +115,13 @@ function Homepage() {
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
                            border border-slate-300 rounded-xl shadow-xl p-auto m-auto '>
                             <div>
-                                <FaFacebookF className='h-[100px] w-7 mr-4 text-indigo-600' />
+                                <AiFillShopping className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Facebook Ads Manager</h3>
+                                <h3 className='font-bold text-lg'>Product Research</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Monitior and oversee the progress of Facebook Ads in different types of online business
+                                Using product research tools to gather information about products; The purpose and development 
+                                direction that leads to discovering winning products that meets the needs of larger market.
                                 </p>
                             </div>
                         </div>
@@ -129,9 +132,10 @@ function Homepage() {
                                 <ImPageBreak className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
-                                <h3 className='font-bold text-lg'>Landing page Creator  </h3>
+                                <h3 className='font-bold text-lg'>Product Description</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Apply your copy writing skills in Landing Page <br /> creation.
+                                Providing consumers with practical information about a product’s benefits, 
+                                measurements and specifications, composition, use cases and <br/> more.
                                 </p>
                             </div>
                         </div>
@@ -139,12 +143,13 @@ function Homepage() {
                         <div className='flex flex-col justify-center items-center text-center bg-zinc-200
             border border-slate-300 rounded-xl shadow-xl '>
                             <div>
-                                <RiCustomerServiceFill className='h-[100px] w-7 mr-4 text-indigo-600' />
+                                <FcCustomerSupport className='h-[100px] w-7 mr-4 text-indigo-600' />
                             </div>
                             <div>
                                 <h3 className='font-bold text-lg'>Customer Service</h3>
                                 <p className='text-lg pt-2 pb-4'>
-                                    Learn communications skills to be able to relate well with <br />customers.
+                                Giving support for online store by offering online shoppers help with e
+                                verything from pre-purchase inquiries to order issues to returns and <br/> exchanges.
                                 </p>
                             </div>
                         </div>

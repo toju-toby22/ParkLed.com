@@ -46,8 +46,38 @@ function module1() {
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Product Description.</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Landing Pages</p>
                     <p className='flex items-center py-4'><MdFiberManualRecord className='h-6 text-indigo-900 mr-3' /> Customer Service</p>
+
+
+                    <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
+                        <div className='bg-white rounded-xl shadow-2xl'>
+                            <div className='p-8'>
+                                <h3 className='font-bold text-2xl my-6'>Details</h3>
+                                <div className="flex">
+                                    <p className='text-black-600 text-xl font-semibold'>Location:</p>
+                                    <p className='text-gray-600 text-xl pl-4'> Classroom</p>
+                                </div>
+                                <div className="flex">
+                                    <p className='text-black-600 text-xl font-semibold'>Duration:</p>
+                                    <p className='text-gray-600 text-xl pl-4'> 2 months</p>
+                                </div>
+                                <div className="flex">
+                                    <p className='text-black-600 text-xl font-semibold'>Time:</p>
+                                    <p className='text-gray-600 text-xl pl-4'> 1-5 pm</p>
+                                </div>
+                                <div className="flex">
+                                    <p className='text-black-600 text-xl font-semibold'>Course Fee:</p>
+                                    <p className='text-gray-600 text-xl pl-4'>N25,000</p>
+                                </div>
+                            </div>
+                            <div className='bg-slate-100 pl-8 py-4'>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKfdHpZGjl9WG3vMHsxH9GniLcfF9y2wbTCwo-vdhdsAvc7Q/viewform?embedded=true">  <button className='w-full py-4 my-4'>Apply Now</button></a>
                 </div>
+
             </div>
             <Footer />
         </>
